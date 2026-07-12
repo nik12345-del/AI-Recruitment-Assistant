@@ -76,7 +76,7 @@ pillow==12.3.0
 plotly==6.9.0
 preshed==3.0.13
 proto-plus==1.28.1
-protobuf==4.25.9
+protobuf==6.32.1
 pyarrow==24.0.0
 pyasn1==0.6.4
 pyasn1_modules==0.4.2
@@ -143,3 +143,11 @@ watchdog==6.0.0
 weasel==1.0.0
 websockets==16.0
 wrapt==2.2.2
+streamlit
+plotly
+numpy
+pandas
+scikit-learn
+groq
+openai
+faiss-cpu
