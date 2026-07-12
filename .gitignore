@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+.streamlit/
+
+AI_Recruitment_Report.pdf
+
+*.pdf
+
+*.log
