@@ -131,6 +131,41 @@ streamlit run app.py
 
 ---
 
+## ☁️ Deployment
+
+### Streamlit Community Cloud
+1. Create a new app at https://streamlit.io/cloud.
+2. Connect your GitHub repo.
+3. Set the app path to `app.py`.
+4. Add a secret for `GROQ_API_KEY` in the Cloud settings.
+5. Deploy.
+
+### Heroku
+1. Install the Heroku CLI.
+2. Run:
+
+```bash
+heroku login
+heroku create your-app-name
+git push heroku main
+```
+
+3. Set the environment variable:
+
+```bash
+heroku config:set GROQ_API_KEY=YOUR_API_KEY
+```
+
+4. Open the app:
+
+```bash
+heroku open
+```
+
+> Note: The repo already includes `Procfile`, `runtime.txt`, and `.streamlit/config.toml` for Heroku/Streamlit deployment.
+
+---
+
 ## 🧠 How It Works
 
 1. Upload Resume
